@@ -1,0 +1,202 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.first{
+    background-image: linear-gradient(rgb(28, 82, 199), white);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    /* justify-content: start;
+    align-items: start; */
+}
+
+.one{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    display: flex;
+}
+
+.two{
+    position: absolute;
+    top: 300px;
+    /* display: flex;
+    justify-content: center; */
+} 
+
+.three{
+    position: absolute;
+}
+
+.bus{
+    position: absolute;
+     bottom: 25px;
+     animation: move 10s ease-out infinite;
+     /* animation-duration: 5s;
+     animation-timing-function: ease; */
+}
+
+@keyframes move {
+    from{
+       transform: translate(-400px, 0);
+    }
+    to{
+        transform: translate(400%, 0);
+    }
+}
+
+.go{
+    position: absolute;
+    top: -160px;
+    right: 0px;
+    animation: go 10s ease-out infinite;
+}
+
+@keyframes go {
+    from{
+       transform: translate(400px, 0);
+    }
+    to{
+        transform: translate(-600%, 0);
+    }
+}
+
+@keyframes this {
+    from{
+       transform: translate(400px, 0);
+    }
+    to{
+        transform: translate(-600%, 0);
+    }
+}
+
+.car2{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    animation: car2 3s ease-out infinite;
+}
+
+@keyframes car2 {
+    from{
+       transform: translate(-400px, 0);
+    }
+    to{
+        transform: translate(500%, 0);
+    }
+}
+
+
+.this{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    animation: this 2s ease-out infinite;
+}
+
+.lorry{
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    animation: move 25s ease-out infinite;
+    width: 500px;
+}
+
+.bicycle4{
+    position: absolute;
+    bottom: 0;
+    animation: bicycle4 10s ease-in-out infinite;
+
+}
+
+@keyframes bicycle4 {
+    from{
+        transform: translate(-200px);
+    }
+    to{
+        transform: translate(1400px);
+    }
+}
+
+.aeroplane{
+    position: absolute;
+    animation: aeroplane 4s infinite;
+}
+
+@keyframes aeroplane {
+    from{
+        transform: translate(1400px);
+    }
+    to{
+        transform: translate(-800px);
+    }
+}
+
+.helicopter{
+    position: absolute;
+    top: -20px;
+    width: 350px;
+    animation: helicopter 8s infinite;
+}
+
+@keyframes helicopter {
+    from{
+        transform: translate(1300px);
+    }
+    to{
+        transform: translate(-500px);
+    }
+}
+
+.truck{
+    position: absolute;
+    top: -80px;
+    animation: truck 11s infinite;
+}
+
+
+@keyframes truck {
+    from{
+        transform: translate(1500px);
+    }
+    to{
+        transform: translate(-500px);
+    }
+}
+
+.girl{
+    position: absolute;
+    top: 195px;
+    animation: girl 18s infinite ease-in;
+}
+
+@keyframes girl {
+    from{
+        transform: translate(1200px);
+    }
+    to{
+        transform: translate(-400px);
+    }
+}
+
+div.three{
+    display: flex;
+    position: absolute;
+    top: -125px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+
+
+

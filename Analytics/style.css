@@ -1,0 +1,113 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, sans-serif
+
+}
+
+.one{
+    display: flex;
+    padding: 20px 50px;
+    background-color: aliceblue;
+    box-shadow: 0px 2px 1px black;
+}
+
+.orange{
+    background-color: #FF7700;
+    padding: 20px;
+}
+
+.first{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px;
+
+}
+
+.two{
+    margin-top: 70px;
+    margin-left: 100px;
+
+}
+
+.parent{
+    background-color: #4285F4;
+    margin-top: 350px;
+    /* height: 180vh; */
+    padding: 30px 70px;
+}
+
+.three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 30px 20px;
+    grid-template-rows: 500px 500px;
+  
+}
+
+.four{
+    background-color: white;
+    /* width: 300px; */
+    padding: 20px;
+    
+}
+
+.five{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.six{
+    background-color: #F2F2F2;
+    margin: 40px 70px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.nine{
+    margin: 40px 70px;
+}
+
+.seven{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 300px; */
+    column-gap: 20px;
+    height: 50px;
+}
+
+.eight{
+    background-color: #F2F2F2;
+    padding: 20px;
+    box-shadow: 1px 1px 4px black;
+}
+
+.mine{
+    font-size: 18px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.ten{
+    background-color: #F2F2F2;
+    margin-top: 180px;
+}
+
+.eleven{
+    padding: 50px 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.twelve{
+    padding: 20px;
+}

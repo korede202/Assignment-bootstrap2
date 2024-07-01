@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div .first{
+    background-color: blue;
+    border: 5px solid black;
+    border-radius: 100%;
+    /* padding: 20px 50px; */
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    position: relative;
+}
+.all{
+    font-size: 30px;
+}
+
+.one{
+   position: absolute;
+   right: 140px;
+   top: 60px;
+}
+
+.two{
+    position: absolute;
+    right: 60px;
+    top: 150px;
+}
+
+.three{
+    position: absolute;
+    right: 20px;
+    top: 280px;
+}
+
+.four{
+    position: absolute;
+    bottom: 150px;
+    right: 60px;
+}
+
+.five{
+    position: absolute;
+    bottom: 60px;
+    right: 150px;
+    
+}
+
+.six{
+    bottom: 20px;
+    position: absolute;
+    left: 280px;
+}
+
+.seven{
+    position: absolute;
+    left: 140px;
+    bottom: 60px;
+}
+
+
+.eight{
+    position: absolute;
+    bottom: 150px;
+    left: 60px;
+}
+
+.nine{
+    position: absolute;
+    left: 20px;
+    bottom: 280px;
+}
+
+
+.ten{
+    position: absolute;
+    left: 60px;
+    top: 150px;
+}
+
+.eleven{
+    position: absolute;
+    left: 150px;
+    top: 60px;
+}
+
+.twelve{
+    position: absolute;
+    top:20px ;
+    left: 280px;
+}
+
+
+/* .ton{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    border-radius: 0%;
+    margin: 25px auto;
+} */
+
+.hour{
+    width: 300px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    /* padding: 100px; */
+    margin-left: 250px;
+    margin-top: 290px;
+}
+
+
+.minute{
+    width: 10px;
+    height: 280px;
+    /* padding: 30px; */
+    background-color: black;
+    position: absolute;
+    top: 260px;
+    left: 260px;
+    margin-top: -200px;
+    margin-left: 30px;
+}
+
